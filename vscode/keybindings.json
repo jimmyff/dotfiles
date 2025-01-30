@@ -1,4 +1,4 @@
-// Place your key bindings in this file to overwrite the defaults
+// Test Place your key bindings in this file to overwrite the defaults
 [
     // Keybindings for Navigation
     {
@@ -28,6 +28,18 @@
         "command": "workbench.action.nextPanelView",
         "when": "panelFocus"
     },
+    // tabs
+    {
+        "key": "ctrl+shift+h",
+        "command": "workbench.action.previousEditorInGroup",
+        "when": "editorFocus"
+    },
+    {
+        "key": "ctrl+shift+l",
+        "command": "workbench.action.nextEditorInGroup",
+        "when": "editorFocus"
+    },
+    
     // sidebar
     {
         "key": "ctrl+k",

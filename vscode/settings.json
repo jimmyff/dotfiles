@@ -17,7 +17,7 @@
     "workbench.sideBar.location": "right",
     "workbench.statusBar.visible": true,
     "window.titleBarStyle": "custom",
-    "breadcrumbs.enabled": true,    
+    "breadcrumbs.enabled": false,    
     "workbench.activityBar.location": "bottom",
     "workbench.colorTheme": "Default Dark Modern",
     "workbench.editor.enablePreview": false,
@@ -56,17 +56,20 @@
     "editor.formatOnType": false,
     "editor.lineHeight": 0,
     "editor.lineNumbers": "relative",
-    "workbench.editor.limit.perEditorGroup": false,
-    "workbench.editor.limit.enabled": true,
-    "workbench.editor.limit.value": 8,
     "workbench.editor.revealIfOpen": true,
     "workbench.editor.closeEmptyGroups": false,
 
 
     // disable tabs
     "editor.fontLigatures": false,
-    "workbench.editor.showTabs": "none",
-    "explorer.openEditors.visible": 1,
+    "workbench.editor.showTabs": "multiple",
+    "workbench.editor.limit.enabled": true,
+    "workbench.editor.limit.value": 1,
+    "workbench.editor.limit.excludeDirty": false,
+    "workbench.editor.limit.perEditorGroup": true,
+    "workbench.editor.tabActionCloseVisibility": false,
+
+   
 
     // Language specific settings
     "files.associations": {
