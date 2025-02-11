@@ -17,15 +17,30 @@
     "workbench.sideBar.location": "right",
     "workbench.statusBar.visible": true,
     "window.titleBarStyle": "custom",
-    "breadcrumbs.enabled": false,    
+    "breadcrumbs.enabled": true,    
     "workbench.activityBar.location": "bottom",
     "workbench.colorTheme": "Default Dark Modern",
     "workbench.editor.enablePreview": false,
     "breadcrumbs.filePath": "last",
     // "editor.renderLineHighlightOnlyWhenFocus": true,
     "editor.renderLineHighlight": "gutter",
+
+    // Custom colors to make focus easier to see
     "workbench.colorCustomizations": {
-        "editor.lineHighlightBackground": "#c94600",
+        "editorCursor.foreground": "#ff3bcb",
+        "editor.lineHighlightBackground": "#00a463",
+        "tab.unfocusedActiveBorder": "#003a23",
+        "tab.activeBorder": "#00a463",
+        "tab.activeBorderTop": "#00a463",
+        "tab.activeBackground": "#00673e",
+        "tab.inactiveBackground" : "#00202a",
+        "tab.inactiveForeground": "#00a463",
+        "tab.activeForeground": "#ffe924",
+        "tab.unfocusedActiveBackground": "#003a4c",
+        "tab.unfocusedActiveForeground": "#1df0ff",
+        "tab.unfocusedInactiveBackground": "#00202a",
+        "tab.unfocusedInactiveForeground": "#0eb5f1",
+        "editorGroup.focusedEmptyBorder": "#00a463",
     },   
 
     // Terminal
@@ -50,6 +65,11 @@
     "git.enableSmartCommit": true,
 
 
+    // AI
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "github.copilot.renameSuggestions.triggerAutomatically": true,
+
+
     // Editor
     "editor.formatOnSave": false,
     "editor.minimap.enabled": false,
@@ -60,11 +80,11 @@
     "workbench.editor.closeEmptyGroups": false,
 
 
-    // disable tabs
+    // restrict tabs
     "editor.fontLigatures": false,
     "workbench.editor.showTabs": "multiple",
     "workbench.editor.limit.enabled": true,
-    "workbench.editor.limit.value": 1,
+    "workbench.editor.limit.value": 3,
     "workbench.editor.limit.excludeDirty": false,
     "workbench.editor.limit.perEditorGroup": true,
     "workbench.editor.tabActionCloseVisibility": false,
@@ -252,6 +272,7 @@
 
     // OSX
     "terminal.integrated.defaultProfile.osx": "zsh",
+    "geminicodeassist.project": "",
 
     // unsorted
 }
